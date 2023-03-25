@@ -19,11 +19,13 @@ func search() (files []string) {
 			for _, subitem := range subitems {
 				if !subitem.IsDir() {
 					// handle file there
+					fmt.Println(item.Name() + "/" + subitem.Name())
 					files = append(files, item.Name()+"/"+subitem.Name())
 				}
 			}
 		} else {
 			// handle file there
+			fmt.Println(item.Name())
 			files = append(files, item.Name())
 		}
 	}
@@ -74,13 +76,13 @@ func main() {
 	exPath := filepath.Dir(ex)
 	fmt.Println(exPath)
 
-	os.Chdir(exPath)
-
 	fmt.Println("Downloading Source")
 	// exec.Command("git", "clone", "https://github.com/GeoStudios/Primal-Craft")
 
+	os.Chdir(exPath)
+
 	os.Chdir("../")
-	os.Chdir("./Primal-Craft/src")
+	os.Chdir("./Primal-Craft/src/")
 
 	fmt.Println("Indexing Files in Source")
 
