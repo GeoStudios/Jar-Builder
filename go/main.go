@@ -76,10 +76,11 @@ func main() {
 
 	os.Chdir(exPath)
 
-	os.Chdir("../")
-	os.Chdir("./src")
 	fmt.Println("Downloading Source")
-	// exec.Command("git clone https://github.com/Prime-Asylum/Alpha-Craft.git")
+	// exec.Command("git", "clone", "https://github.com/GeoStudios/Primal-Craft")
+
+	os.Chdir("../")
+	os.Chdir("./Primal-Craft/src")
 
 	fmt.Println("Indexing Files in Source")
 
