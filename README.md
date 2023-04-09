@@ -14,3 +14,7 @@ and replace "jarclass" with the class that open the program and leave the progra
 The required objects to make this work are Compiler.bat and the src folder. The program will create and "srcOut" folder with all the compiled files and pack them into a jar while making a bin folder for the jar to stay in. The Jar file will autorun so you can mess with the finished product and check for errors that may occur in the console/terminal.
 
 After the jar is created it will delete the srcOut unless you change the KeepSrcOut to true.
+
+# Download
+
+### [Download (latest)](https://github.com/GeoStudios/Downloads/releases/tag/Jar_Builder1)
