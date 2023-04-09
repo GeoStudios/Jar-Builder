@@ -1,7 +1,7 @@
 @echo off
 
-set "JarName=SuperCalc" 
-set "MainClass=main"
+set "JarName=jarname" 
+set "MainClass=jarclass"
 set "KeepSrcOut=false"
 
 CLS
