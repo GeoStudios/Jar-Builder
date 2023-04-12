@@ -1,4 +1,4 @@
-# Jar Compiler
+# Jar Builder
 
 ### Config
 ```batch
