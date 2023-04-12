@@ -1,5 +1,4 @@
 # Jar Builder
-# Jar Builder
 
 ### [Change Log](changelog.md)
 
