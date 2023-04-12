@@ -1,20 +1,9 @@
-# Jar Compiler
+# Jar Builder
 
-### Config
-```batch
+### [Change Log](changelog.md)
 
-set "JarName=jarname" 
-set "MainClass=jarclass"
-set "KeepSrcOut=false"
-```
+### [Current Version Page](1.1.md)
 
-Replace "jarname" with the program name and leave out extentions
-and replace "jarclass" with the class that open the program and leave the program to do the rest.
+### [Last Version](1.0.md)
 
-The required objects to make this work are Compiler.bat and the src folder. The program will create and "srcOut" folder with all the compiled files and pack them into a jar while making a bin folder for the jar to stay in. The Jar file will autorun so you can mess with the finished product and check for errors that may occur in the console/terminal.
-
-After the jar is created it will delete the srcOut unless you change the KeepSrcOut to true.
-
-# Download
-
-### [Download (latest)](https://github.com/GeoStudios/Downloads/releases/tag/Jar_Builder1)
+### [Versions](versions.md)

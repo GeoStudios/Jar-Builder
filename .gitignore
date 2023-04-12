@@ -1,1 +1,5 @@
 bin/
+src/
+srcOut/
+setjava.bat
+Compiler13.bat

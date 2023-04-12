@@ -1,14 +1,14 @@
 @echo off
 
-set "JarName=jarname" 
-set "MainClass=jarclass"
-set "KeepSrcOut=false"
+set "JarName=SuperCalc" 
+set "MainClass=main"
+set "KeepSrcOut=true"
 
-set "javaDir="
-set "experiments=false"
+set "javaDir=E:\Program Files\Java\jdk-13\bin\"
+set "experiments=true"
 
 @REM Only works if experiments are enabled
-set "javaBaseDir="
+set "javaBaseDir=E:\Program Files\Java"
 set "javaJdkVer=jdk-20"
 
 
@@ -34,7 +34,7 @@ DEL "%JarName%.jar"
 cd ../
 if "%KeepSrcOut%" == "false" RMDIR srcOut /Q /S
 CLS
-echo Compilation is done and your "%JarName%.jar" is ready sir.
+echo Compilation is done and your "%JarName%.jar" file is ready sir.
 if "%experiments%" == "false" "%java%java" -jar "bin/%JarName%.jar"
 
 if "%experiments%" == "true" "%java%java" -jar "bin/%JarName%.jar"
