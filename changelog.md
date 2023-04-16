@@ -1,3 +1,5 @@
+<!-- Copyright (c) 2023 Geo-Studios - All Rights Reserved. -->
+
 ### Jar Builder `Change Log`
 
 #### 1.1
